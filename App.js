@@ -1,6 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-
+import LoginPage from './components/LoginPage';
+import HomePage from './components/HomePage';
+import LoginForm from './components/LoginForm';
+import RegisterForm from './components/RegisterForm';
 export default function App() {
   return (
     <View style={styles.container}>
